@@ -1,0 +1,48 @@
+/* SearchResults.css */
+.search-results h2 {
+    margin-bottom: 10px;
+    color: var(--primary-color);
+  }
+  
+  .search-results p {
+    margin-bottom: 20px;
+    color: var(--dark-gray);
+  }
+  
+  .results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .paper-item {
+    padding: 15px;
+    border: 1px solid var(--medium-gray);
+    border-radius: var(--border-radius);
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .paper-item h3 {
+    margin-bottom: 10px;
+    color: var(--primary-color);
+  }
+  
+  .paper-item .authors {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .paper-item .abstract {
+    margin-bottom: 15px;
+  }
+  
+  .paper-item .abstract p {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+  }
+  
+  .paper-item .actions {
+    margin-top: 15px;
+  }
